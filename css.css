@@ -1,0 +1,264 @@
+h1 strong{
+  color: #42455a;
+}
+h3 strong{
+  color: #42455a;
+}
+
+
+
+.badan{
+  
+  min-height: 450px;
+  border-width: 0px;
+  border-style: solid;
+  border-color: #d6e9c6;
+  padding: 20px;
+  padding-bottom: 20px;
+}
+.fa {
+  color: #f8f8f8;
+}
+
+.body{
+  background-image: "assets/bg.png";
+
+}
+.container{
+  background: white;
+  background-color: white;
+}
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.play-btn {
+  margin-left: 20px;
+  display: inline-flex;
+}
+.play-btn-inner {
+  height: 50px;
+  color: #ffffff;
+  width: 50px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  background-image: linear-gradient(#ffffff, #ffffff),
+    radial-gradient(circle at top left, #fd00da, #19d7f8);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  text-align: center;
+}
+.play-btn-inner .fa {
+  padding: 10px ;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+small {
+  margin: auto 10px;
+  cursor: pointer;
+  font-size: 12px;
+  color: #000000;
+  letter-spacing: 2px;
+}
+.app-picture {
+  width: 120%;
+}
+.app-picture img {
+  width: 100%;
+}
+
+.quick-links {
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  background: linear-gradient(to right, #db1bf6, #19d7f8);
+}
+.quick-links ul {
+ 
+  text-align: center;
+}
+.quick-links ul li {
+  list-style: none;
+  margin: 0 50px;
+  cursor: pointer;
+}
+.quick-links ul li .fa {
+  font-size: 25px;
+  color: #fff;
+}
+.quick-links ul li p {
+ 
+  font-size: 10px;
+  color: #fff;
+}
+
+.modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 20px;
+}
+
+ .modal-header, .close {
+      background-color: #3b5998;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+  }
+
+.navbar-inverse {
+    background-color: #2243;
+    border-color: #080808;
+    
+}
+.navbar-header{
+
+}
+.navbar-brand {position: relative; z-index: 2; font-size: 20px;}
+
+.navbar-nav.navbar-right .btn { position: relative; z-index: 2; padding: 4px 20px; margin: 10px auto; transition: transform 0.3s; }
+
+.navbar .navbar-collapse { position: relative; overflow: hidden !important; }
+.navbar .navbar-collapse .navbar-right > { padding-left: 22px; margin-right: 10px; }
+
+.navbar .nav-collapse { position: absolute; z-index: 1; top: 0; left: 0; right: 0; bottom: 0; margin: 0; padding-right: 120px; padding-left: 80px; width: 100%; }
+.navbar.navbar-default .nav-collapse { background-color: #f8f8f8; }
+.navbar.navbar-inverse .nav-collapse { background-color: #222; }
+.navbar .nav-collapse .navbar-form { border-width: 0; box-shadow: none; }
+.nav-collapse>li { float: right; }
+
+.btn.btn-circle { border-radius: 50px; }
+.btn.btn-outline { background-color: transparent; }
+
+.navbar-nav.navbar-right .btn:not(.collapsed) {
+    background-color: orange;
+    border-color:white;
+    color: rgb(255, 255, 255);
+}
+
+.navbar.navbar-default .nav-collapse,
+.navbar.navbar-inverse .nav-collapse {
+    height: auto !important;
+    transition: transform 0.3s;
+    transform: translate(0px,-50px);
+}
+.navbar.navbar-default .nav-collapse.in,
+.navbar.navbar-inverse .nav-collapse.in {
+    transform: translate(0px,0px);
+}
+
+
+
+.buttonlogin{
+    color:#9999;
+    cursor: default;
+
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+.foot{
+
+  position: relative;
+  width: 80%;
+  height: 40px;
+  background-color: #224;
+  border-color: #080808;
+  bottom: 0px;    
+  color: #9999;
+}
+
+.bawah{
+  position: relative;
+  width: 80%;
+    height: 40px;
+    background-color:rgb(34, 34, 34);
+    bottom: 0px;    
+}
+
+.copy{
+  text-align:center;
+}
+.copy p{
+  font-size: 1em;
+  color: #ffffff;
+  line-height: 2.5em;
+  font-family: 'Ruluko', sans-serif;
+  text-transform: uppercase;
+}
+.copy p a{
+  color: #FEE100;
+}
+.copy p a:hover{
+  color:#ffffff;
+  -webkit-transition: 0.9s;
+  -moz-transition: 0.9s;
+  -o-transition: 0.9s;
+  transition: 0.9s;
+}
+
+/* Style the top navigation bar */
+.events {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 200px 200px;
+  text-decoration: none;
+  background-color: #333;
+  text-align: center;
+}
+
+/* Style the navigation bar links */
+.events a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.events a:hover {
+  text-decoration: none;
+  background-color: #ddd;
+  color: black;
+}
+
+.events a img{
+  
+  width: 40px;
+  height: 40px;
+}
+.events a img:hover{
+  
+  width: 45px;
+  height: 45px;
+}
+
+.feedback a i{
+  font-size:50px;
+}
+
+label > input{ 
+          visibility: hidden; 
+          position: absolute; 
+        }
+        label > input + i{ 
+          cursor:pointer;
+          border:2px solid transparent;
+          color: #1a66ff;
+        }
+        label > input:checked + i{ 
+          margin: 10px;
+          padding: 10px;
+          border:2px solid #006600;
+          border-radius: 20%;
+        }
